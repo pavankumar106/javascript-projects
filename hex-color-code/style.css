@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Lobster+Two:ital@1&family=Rubik&display=swap");
+
+body {
+  font-family: "Comfortaa", cursive;
+  font-family: "Lobster Two", cursive;
+  font-family: "Rubik", sans-serif;
+}
+.container{
+    border: 1px solid black;
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hex-colors{
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.hex-colors h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    animation: changeColor 5s infinite alternate;
+}
+.hex-colors h2{
+    /* border: 1px solid black; */
+    font-size: 2rem;
+    margin-top: 15%;
+}
+
+@keyframes changeColor{
+    0%{
+        color: indigo;
+    }
+    20%{
+        color: blue;
+    }
+    40%{
+        color: green;
+    }
+    60%{
+        color: yellow;
+    }
+    80%{
+        color: orange;
+    }
+    100%{
+        color: red;
+    }
+}
+
+@media(max-width:480px){
+    .hex-colors h1{
+        font-size: 1.5rem;
+    }
+}
+    .hex-colors h2{
+        font-size: 1.5rem;
+    }
+}
