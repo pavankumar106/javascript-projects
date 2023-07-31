@@ -1,0 +1,43 @@
+body{
+    background: #474d63;
+
+}
+
+.container{
+    /* border: 1px solid black; */
+    width: 95%;
+    height: auto;
+    display: flex;
+    margin-top: 40px;
+}
+
+.quotes{
+    
+    width: 900px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    color: gray;
+    background-color: #f4edea;
+    border: 10px solid #f4d1ae;
+
+}
+.quotes p, .quotes h3{
+    font-size: 1.5rem;
+
+}
+
+@media(max-width:480px){
+    .quotes p, .quotes h3{
+    font-size: 1rem;
+
+}
+}
+button{
+    margin-top: 20px;
+    border: 10px solid black;
+}
