@@ -1,2 +1,2 @@
 # javascript-projects
-JavaScript projects  and challenges are includes
+JavaScript projects  and challenges are included.
