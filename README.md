@@ -5,3 +5,4 @@ JavaScript projects  and challenges are included.
 [2.Dice challenge game](https://github.com/pavankumar106/javascript-projects/tree/main/dice-challenge-game)<br>
 [3.Hex color code](https://github.com/pavankumar106/javascript-projects/tree/main/hex-color-code)<br>
 [4.Quoate generator](https://github.com/pavankumar106/javascript-projects/tree/main/random-quote-generator)<br>
+[5.Pass the message](https://github.com/pavankumar106/javascript-projects/tree/main/message)<br>
