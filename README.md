@@ -6,4 +6,5 @@ JavaScript projects  and challenges are included.
 [3.Hex color code](https://github.com/pavankumar106/javascript-projects/tree/main/hex-color-code)<br>
 [4.Quoate generator](https://github.com/pavankumar106/javascript-projects/tree/main/random-quote-generator)<br>
 [5.Pass the message](https://github.com/pavankumar106/javascript-projects/tree/main/message)<br>
-[6.Counter](https://github.com/pavankumar106/javascript-projects/tree/main/counter)
+[6.Counter](https://github.com/pavankumar106/javascript-projects/tree/main/counter)<br>
+[7.Digital Clock](https://github.com/pavankumar106/javascript-projects/tree/main/digital-clock)<br>
