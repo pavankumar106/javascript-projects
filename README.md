@@ -8,3 +8,4 @@ JavaScript projects  and challenges are included.
 [5.Pass the message](https://github.com/pavankumar106/javascript-projects/tree/main/message)<br>
 [6.Counter](https://github.com/pavankumar106/javascript-projects/tree/main/counter)<br>
 [7.Digital Clock](https://github.com/pavankumar106/javascript-projects/tree/main/digital-clock)<br>
+[8.Calculator](https://github.com/pavankumar106/javascript-projects/tree/main/calculator)<br>
