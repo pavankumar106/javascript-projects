@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Form Validation</title>
+  </head>
+  <body>
+    <form
+      action="abc.php"
+      method="post"
+      name="contactForm"
+      onsubmit="return ValidateForm()"
+    >
+      <h2>Application form</h2>
+      <div class="row">
+        <label for="">Full Name</label>
+        <input type="text" name="name" />
+        <div class="error" id="nameErr"></div>
+      </div>
+
+      <div class="row">
+        <label for="">Email</label>
+        <input type="text" name="email" />
+        <div class="error" id="emailErr"></div>
+      </div>
+
+      <div class="row">
+        <label for="">Mobile Number</label>
+        <input type="text" name="mobile" maxlength="10" />
+        <div class="error" id="mobileErr"></div>
+      </div>
+
+      <div class="row">
+        <label for="">Country</label>
+        <select name="country" id="">
+          <option value="">select</option>
+          <option value="">India</option>
+          <option value="">UK</option>
+          <option value="">UN</option>
+        </select>
+        <div class="error" id="countryErr"></div>
+      </div>
+      <div class="row">
+        <label for="">Gender</label>
+        <div class="form-inline">
+          <label for="">
+            <input type="radio" name="gender" id="male" />Male
+          </label>
+          <label for="">
+            <input type="radio" name="gender" id="female" />Female
+          </label>
+          <div class="error" id="genderErr"></div>
+        </div>
+      </div>
+
+      <div class="row">
+        <label for="">Hobbies <i>(Optional)</i></label>
+        <div class="form-inline">
+          <label for="">
+            <input type="checkbox" name="hobbies[]" id="sports" />Sports
+          </label>
+          <label for="">
+            <input type="checkbox" name="hobbies[]" id="movies" />Movies
+          </label>
+          <label for="">
+            <input type="checkbox" name="hobbies[]" id="music" />Music
+          </label>
+          <div class="error" id="genderErr"></div>
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="submit" />
+      </div>
+    </form>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
