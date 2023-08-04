@@ -66,3 +66,6 @@ input[type="submit"]:hover {
   color: red;
   font-size: 90%;
 }
+input[type="checkbox"] {
+  margin: 5px;
+}
