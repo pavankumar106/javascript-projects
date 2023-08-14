@@ -7,9 +7,9 @@ function printError(elemId, hintMsg) {
 function validateForm() {
   var name = document.contactForm.name.value;
   var email = document.contactForm.email.value;
-  var mobile = document.contactForm.email.value;
-  var country = document.contactForm.email.value;
-  var gender = document.contactForm.email.value;
+  var mobile = document.contactForm.mobile.value;
+  var country = document.contactForm.country.value;
+  var gender = document.contactForm.gender.value;
   var hobbies = [];
   var checkboxes = document.getElementsByName("hobbies[]");
 
@@ -78,8 +78,9 @@ function validateForm() {
   if ((nameErr || emailErr || mobileErr || countryErr || genderErr) == true) {
     return false;
   } else {
-    var preview = "you have entered the following details : \n";
-    "Full Name : " +
+    var preview =
+      "you have entered the following details : \n" +
+      "Full Name : " +
       name +
       "\n" +
       "Email Id : " +
@@ -92,7 +93,7 @@ function validateForm() {
       "Gender :" +
       gender;
     if (hobbies.length) {
-      preview += "Hobbies : " + hobbies.join(",");
+      preview += "Hobbies : " + hobbies.join(",") + "\n";
     }
     alert(preview);
   }
