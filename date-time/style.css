@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: max-content;
+  min-width: 400px;
+  min-height: 400px;
+  margin: auto;
+  background-color: rgb(237, 233, 233);
+  padding: 10px;
+}
+
+.box h5 {
+  text-align: center;
+  text-transform: uppercase;
+}

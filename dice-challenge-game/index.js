@@ -21,3 +21,7 @@ if (randomNumber1 > randomNumber2) {
 } else {
   document.querySelector("h1").innerHTML = "Draw !!!!";
 }
+
+// onclick
+// get random number from 1 to 6
+// set dice image
