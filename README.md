@@ -11,3 +11,4 @@ JavaScript projects  and challenges are included.
 [8.Calculator](https://github.com/pavankumar106/javascript-projects/tree/main/calculator)<br>
 [9.Dice Roll Animation](https://github.com/pavankumar106/javascript-projects/tree/main/dice-roll)<br>
 [10.Form Validation](https://github.com/pavankumar106/javascript-projects/tree/main/form-validation)<br>
+[11.Theme Toggle](https://github.com/pavankumar106/javascript-projects/tree/main/theme-toggle)<br>
