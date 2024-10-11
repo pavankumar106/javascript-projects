@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        width: 80%;
+        margin: 20px auto;
+      }
+
+      .pagination {
+        margin: 20px auto;
+      }
+
+      .pagination button {
+        padding: 8px 12px;
+        margin: 0 5px;
+        cursor: pointer;
+      }
+
+      .active {
+        background-color: #007bff;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container" id="data-container">
+      <!-- Data will be dynamically loaded here -->
+    </div>
+    <div class="pagination" id="pagination"></div>
+    <script>
+      // Sample data
+      const data = Array.from({ length: 50 }, (_, i) => i + 1);
+
+      const itemsPerPage = 10;
+      let currentPage = 1;
+
+      const container = document.getElementById("data-container");
+      const pagination = document.getElementById("pagination");
+
+      // Function to display items based on current page
+      function displayData() {
+        const start = (currentPage - 1) * itemsPerPage;
+        const end = start + itemsPerPage;
+        const paginatedData = data.slice(start, end);
+
+        container.innerHTML = "";
+        paginatedData.forEach((item) => {
+          const itemElement = document.createElement("div");
+          itemElement.textContent = item;
+          container.appendChild(itemElement);
+        });
+
+        createPagination();
+      }
+
+      // Function to create pagination buttons
+      function createPagination() {
+        const pageCount = Math.ceil(data.length / itemsPerPage);
+        pagination.innerHTML = "";
+
+        for (let i = 1; i <= pageCount; i++) {
+          const button = document.createElement("button");
+          button.textContent = i;
+
+          if (i === currentPage) {
+            button.classList.add("active");
+          }
+
+          button.addEventListener("click", () => {
+            currentPage = i;
+            displayData();
+          });
+
+          pagination.appendChild(button);
+        }
+      }
+
+      // Initial display
+      displayData();
+    </script>
+  </body>
+</html>
