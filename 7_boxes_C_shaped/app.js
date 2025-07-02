@@ -25,7 +25,7 @@ const boxClickHandler = (e) => {
         // After the last box turns green, reset seq
         if (idx === arr.length - 1) {
           setTimeout(() => {
-            // Reset all boxes to original color (assuming original is empty string or set to your desired color)
+            // Reset all boxes to original color
             boxesArr.forEach((box) => {
               box.style.backgroundColor = "";
             });
