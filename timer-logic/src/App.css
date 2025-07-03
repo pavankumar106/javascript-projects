@@ -1,0 +1,45 @@
+.text {
+  text-align: center;
+}
+
+.comp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.comp p {
+  font-size: 24px;
+  margin: 10px;
+  color: #333;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border: 2px solid hashtag#ccc;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  text-align: center;
+}
+.comp .green {
+  color: green;
+}
+.comp .red {
+  color: red;
+}
+.comp button {
+  width: max-content;
+  height: 50px;
+  font-size: 20px;
+  margin: 10px;
+  padding: 5px 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+.comp button:hover {
+  background-color: #0056b3;
+}
