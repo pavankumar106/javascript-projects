@@ -12,3 +12,4 @@ JavaScript projects  and challenges are included.
 [9.Dice Roll Animation](https://github.com/pavankumar106/javascript-projects/tree/main/dice-roll)<br>
 [10.Form Validation](https://github.com/pavankumar106/javascript-projects/tree/main/form-validation)<br>
 [11.Theme Toggle](https://github.com/pavankumar106/javascript-projects/tree/main/theme-toggle)<br>
+[12.7 boxes C shaped](https://github.com/pavankumar106/javascript-projects/tree/main/7_boxes_C_shaped)
